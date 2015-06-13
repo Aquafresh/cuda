@@ -604,7 +604,7 @@ a {
   margin-top: 65px;
   -webkit-perspective: 600px;
           perspective: 600px;
-  min-height: 1500px;
+  min-height: 1200px;
 }
 .portfolio .tabs__wrap {
   position: absolute;
