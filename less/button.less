@@ -1,0 +1,65 @@
+.btn {
+
+  width: 293px;
+  border-radius: 3px;
+  min-height: 66px;
+  display: block;
+  margin: 0 auto;
+  color: @c-text;
+  line-height: 66px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #fff;
+  border-bottom: 4px solid rgba(0 , 0, 0, 0.15);
+
+  &__orange {
+
+    background-color: @bgc-btn-main;
+
+    &:hover {
+
+      background: @bgc-services;
+    }
+
+      &:active {
+
+      background-color: lighten(@bgc-services, 3%);
+    }
+  }
+
+  &__light-green {
+
+    background: @bgc-services;
+    margin-top: 80px;
+
+    &:hover {
+
+      background: @bgc-about;
+    }
+
+    &:active {
+
+      background-color: lighten(@bgc-about, 3%);
+    }
+  }
+
+  &__blue {
+
+    background-color: @bgc-btn-feedback;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+
+    &:hover {
+
+      background-color: @bgc-main;
+      outline: none;
+    }
+
+    &:active {
+
+      background-color: lighten(@bgc-main, 3%);
+      outline: none;
+    }
+  }
+}

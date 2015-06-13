@@ -1,0 +1,169 @@
+// Reviews - section
+
+.reviews {
+
+	background-color: @bgc-about;
+	padding-top: 120px;
+	padding-bottom: 128px;
+
+	&__sub-title {
+
+		margin-bottom: 70px;
+	}
+
+	&__text {
+
+		font-size: 18px;
+		color: @c-text;
+		font-style: italic;
+		font-weight: 300;
+		font-family: @ff-base;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	&__photo {
+
+		border-radius: 50%;
+		width: 50%;
+		height: 50%;
+		margin-right: 10%;
+		margin: 0 auto;
+	}
+
+	&__name {
+
+	  text-align: center;
+		font-size: 22px;
+		color: @c-text;
+		margin-top: 30px;
+	}
+
+	&__profession {
+
+		text-align: center;
+		color: @bgc-portfolio;
+		font-size: 18px;
+	}
+
+	&__item {
+
+		display: flex;
+  	flex-direction: column;
+  	align-items: flex-center;
+  	justify-content: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media(min-width:700px) {
+	.reviews {
+
+		background-color: @bgc-about;
+		padding-top: 120px;
+		padding-bottom: 128px;
+
+		&__text {
+
+			font-size: 18px;
+			color: @c-text;
+			font-style: italic;
+			font-weight: 300;
+			font-family: @ff-base;
+			float: right;
+			width: 65%;
+			text-align: left;
+		}
+
+		&__photo {
+
+			border-radius: 50%;
+			float: left;
+			width: 25%;
+			height: 25%;
+			margin-right: 10%;
+		}
+
+		&__name {
+
+			float: right;
+			width: 65%;
+			text-align: left;
+			font-size: 22px;
+			color: @c-text;
+			margin-top: 30px;
+		}
+
+		&__profession {
+
+			float: right;
+			width: 65%;
+			text-align: left;
+			color: @bgc-portfolio;
+			font-size: 18px;
+		}
+
+		&__item {
+
+		display: block;
+		width: 50%;
+		margin-bottom: 20px;
+		}
+	}
+}
+
+@media(min-width:960px) {
+	.reviews {
+
+		background-color: @bgc-about;
+		padding-top: 120px;
+		padding-bottom: 128px;
+
+		&__text {
+
+			font-size: 18px;
+			color: @c-text;
+			font-style: italic;
+			font-weight: 300;
+			font-family: @ff-base;
+			float: right;
+			width: 65%;
+			text-align: left;
+		}
+
+		&__photo {
+
+			border-radius: 50%;
+			float: left;
+			width: 25%;
+			height: 25%;
+			margin-right: 10%;
+		}
+
+		&__name {
+
+			float: right;
+			width: 65%;
+			text-align: left;
+			font-size: 22px;
+			color: @c-text;
+			margin-top: 30px;
+		}
+
+		&__profession {
+
+			float: right;
+			width: 65%;
+			text-align: left;
+			color: @bgc-portfolio;
+			font-size: 18px;
+		}
+
+		&__item {
+
+			display: block;
+			width: 50%;
+		}
+	}
+}

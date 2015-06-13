@@ -1,0 +1,280 @@
+// Feedback - section
+
+.feedback {
+
+	background-color: @bgc-feedback;
+	padding-top: 120px;
+	padding-bottom: 115px;
+
+	.form {
+
+		&__name {
+
+			width: 80%;
+			margin-left: 10%;
+			margin-bottom: 27px;
+			margin-top: 75px;
+			border-radius: 5px;
+			border: none;
+			background-color: @bgc-form;
+			color: @c-text;
+			height: 56px;
+			line-height: 56px;
+			padding-left: 26px;
+			padding-right: 20px;
+			margin-right: auto;
+			margin-left: auto;
+
+			&:focus {
+
+				outline: none;
+			}
+		}
+
+		&__email {
+
+			width: 80%;
+			margin-right: 10%;
+			margin-bottom: 27px;
+			border-radius: 5px;
+			border: none;
+			background-color: @bgc-form;
+			color: @c-text;
+			height: 56px;
+			line-height: 56px;
+			padding-left: 26px;
+			padding-right: 20px;
+			margin-right: auto;
+			margin-left: auto;
+
+			&:focus {
+
+				outline: none;
+			}
+		}
+
+		&__message {
+
+			display: block;
+			margin: 0 auto;
+			width: 80%;
+			margin-bottom: 60px;
+			border-radius: 5px;
+			border: none;
+			background-color: @bgc-form;
+			color: @c-text;
+			padding-left: 26px;
+			padding-top: 26px;
+			min-height: 200px;
+			resize: none;
+
+			&:focus {
+
+				outline: none;
+			}
+		}
+	}
+}
+
+@media(min-width:700px) {
+	.feedback {
+
+		background-color: @bgc-feedback;
+		padding-top: 120px;
+		padding-bottom: 115px;
+
+		.form {
+
+			&__name {
+
+				width: 38%;
+				float: left;
+				margin-left: 10%;
+				margin-top: 75px;
+				margin-bottom: 27px;
+				border-radius: 5px;
+				border: none;
+				background-color: @bgc-form;
+				color: @c-text;
+				height: 56px;
+				line-height: 56px;
+				padding-left: 26px;
+				padding-right: 20px;
+
+				&:focus {
+
+					outline: none;
+				}
+			}
+
+			&__email {
+
+				width: 38%;
+				float: right;
+				margin-right: 10%;
+				margin-top: 75px;
+				margin-bottom: 27px;
+				border-radius: 5px;
+				border: none;
+				background-color: @bgc-form;
+				color: @c-text;
+				height: 56px;
+				line-height: 56px;
+				padding-left: 26px;
+				padding-right: 20px;
+
+				&:focus {
+
+					outline: none;
+				}
+			}
+
+			&__message {
+
+				display: block;
+				margin: 0 auto;
+				width: 80%;
+				margin-bottom: 60px;
+				border-radius: 5px;
+				border: none;
+				background-color: @bgc-form;
+				color: @c-text;
+				padding-left: 26px;
+				padding-top: 26px;
+				min-height: 200px;
+				resize: none;
+
+				&:focus {
+
+					outline: none;
+				}
+			}
+		}
+	}
+}
+
+@media(min-width:960px) {
+	.feedback {
+
+		background-color: @bgc-feedback;
+		padding-top: 120px;
+		padding-bottom: 115px;
+
+		.form {
+
+			&__name {
+
+				width: 38%;
+				float: left;
+				margin-left: 10%;
+				margin-top: 75px;
+				margin-bottom: 27px;
+				border-radius: 5px;
+				border: none;
+				background-color: @bgc-form;
+				color: @c-text;
+				height: 56px;
+				line-height: 56px;
+				padding-left: 26px;
+				padding-right: 20px;
+
+				&:focus {
+
+					outline: none;
+				}
+			}
+
+			&__email {
+
+				width: 38%;
+				float: right;
+				margin-right: 10%;
+				margin-top: 75px;
+				margin-bottom: 27px;
+				border-radius: 5px;
+				border: none;
+				background-color: @bgc-form;
+				color: @c-text;
+				height: 56px;
+				line-height: 56px;
+				padding-left: 26px;
+				padding-right: 20px;
+
+				&:focus {
+
+					outline: none;
+				}
+			}
+
+			&__message {
+
+				display: block;
+				margin: 0 auto;
+				width: 80%;
+				margin-bottom: 60px;
+				border-radius: 5px;
+				border: none;
+				background-color: @bgc-form;
+				color: @c-text;
+				padding-left: 26px;
+				padding-top: 26px;
+				min-height: 200px;
+				resize: none;
+
+				&:focus {
+
+					outline: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+
+	color: @c-text;
+}
+
+::-moz-placeholder          {
+
+	color: @c-text;
+}
+
+:-ms-input-placeholder      {
+
+	color: @c-text;
+}
+
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+textarea::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+textarea::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+textarea:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+textarea:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+textarea:focus::-webkit-input-placeholder {text-indent: -500px; transition: text-indent 0.3s ease;}
+textarea:focus::-moz-placeholder          {text-indent: -500px; transition: text-indent 0.3s ease;}
+textarea:focus:-moz-placeholder           {text-indent: -500px; transition: text-indent 0.3s ease;}
+textarea:focus:-ms-input-placeholder      {text-indent: - 500px; transition: text-indent 0.3s ease;}
