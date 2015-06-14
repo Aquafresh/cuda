@@ -566,6 +566,7 @@ a {
   min-height: 1px;
   margin: 0 auto;
   padding: 0 10px;
+  outline: 1px solid red;
 }
 @media (min-width: 700px) {
   .container {
@@ -594,7 +595,7 @@ a {
   color: #534f46;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.3);
-  margin-right: 5px;
+  margin-right: 1%;
   font-weight: 500;
 }
 .portfolio input[type="radio"]:checked + label {
@@ -635,8 +636,9 @@ a {
   width: 100%;
 }
 .portfolio .tabs__item > img {
-  width: 100%;
-  height: 100%;
+  idth: 100%;
+  eight: auto;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 .portfolio .tabs__caption {
@@ -1282,7 +1284,7 @@ a {
     margin-top: 20px;
   }
   .team__photo {
-    width: inherit;
+    width: 200px;
     height: 200px;
     background-color: #878787;
     border-radius: 50%;
@@ -1409,8 +1411,8 @@ a {
   padding-bottom: 145px;
 }
 .main-section__logo {
-  background: url("../img/logo.png") no-repeat 50% 50%;
-  display: block;
+  background: url("../img/logo.png") no-repeat 0% 50%;
+  outline: 1px solid #000;
   height: 50px;
   margin-top: 38px;
 }
@@ -1512,6 +1514,11 @@ a {
   margin-bottom: 55px;
 }
 @media (min-width: 700px) {
+  .main-section .main-nav__logo {
+    background: url("../img/logo.png") no-repeat 50% 50%;
+    height: 50px;
+    margin-top: 38px;
+  }
   .main-section .main-nav__list {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1808,6 +1815,15 @@ a {
     padding-top: 120px;
     padding-bottom: 115px;
   }
+  .feedback .form::before {
+    content: " ";
+    display: table;
+  }
+  .feedback .form::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
   .feedback .form__name {
     width: 38%;
     float: left;
@@ -1867,6 +1883,15 @@ a {
     background-color: #3c5499;
     padding-top: 120px;
     padding-bottom: 115px;
+  }
+  .feedback .form::before {
+    content: " ";
+    display: table;
+  }
+  .feedback .form::after {
+    content: " ";
+    display: table;
+    clear: both;
   }
   .feedback .form__name {
     width: 38%;
@@ -1932,66 +1957,66 @@ a {
   color: #ffffff;
 }
 input::-webkit-input-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 input::-moz-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 input:-moz-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 input:-ms-input-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 input:focus::-webkit-input-placeholder {
-  text-indent: 500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 input:focus::-moz-placeholder {
-  text-indent: 500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 input:focus:-moz-placeholder {
-  text-indent: 500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 input:focus:-ms-input-placeholder {
-  text-indent: 500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 textarea::-webkit-input-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 textarea::-moz-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 textarea:-moz-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 textarea:-ms-input-placeholder {
-  text-indent: 0px;
-  transition: text-indent 0.3s ease;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 textarea:focus::-webkit-input-placeholder {
-  text-indent: -500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 textarea:focus::-moz-placeholder {
-  text-indent: -500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 textarea:focus:-moz-placeholder {
-  text-indent: -500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 textarea:focus:-ms-input-placeholder {
-  text-indent: - 500px;
-  transition: text-indent 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
