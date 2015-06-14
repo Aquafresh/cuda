@@ -566,7 +566,6 @@ a {
   min-height: 1px;
   margin: 0 auto;
   padding: 0 10px;
-  outline: 1px solid red;
 }
 @media (min-width: 700px) {
   .container {
@@ -1412,7 +1411,6 @@ a {
 }
 .main-section__logo {
   background: url("../img/logo.png") no-repeat 0% 50%;
-  outline: 1px solid #000;
   height: 50px;
   margin-top: 38px;
 }
