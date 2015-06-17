@@ -27,14 +27,14 @@
 						</ul>
 					</nav>
 					<div class="main-section__mobile-menu col-xs-1 col-xs-offset-6 js-btn">Menu</div>
-				</div>
-				<ul class="main-section__mobile-list js-menu">
+					<ul class="main-section__mobile-list js-menu">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Work</a></li>
 						<li><a href="#">Blog</a></li>
 						<li><a href="#">Contact</a></li>
-				</ul>
+					</ul>
+				</div>
 				<h1 class="main-section__main-title">Hi there! We are the new kids on the block<br> and build awesome websites and mobile apps.</h1>
 				<a class="btn btn__orange" href="#">Work with us!</a>
 			</div>
@@ -410,14 +410,10 @@
 	<script src="js/jquery.js"></script>
 	<script>
 
-		var link = document.querySelector(".js-btn");
-		var popup = document.querySelector(".js-menu");
-
-		link.addEventListener("click", function() {
-			event.preventDefault();
-			popup.classList.add("mobile-menu-open");
-			link.classList.add("mobile-menu-transform");
-	  });
+		$('.js-btn').click(function() {
+		  $(this).toggleClass('mobile-menu-transform').siblings('.js-menu').slideToggle();
+		  console.log("123");
+		});
 
 	</script>
 </body>
