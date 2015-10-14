@@ -1,0 +1,33 @@
+.qwe {
+
+	width: 100%;
+	background: #blue;
+	color: #000;
+	padding: 50px 0;
+}
+
+.asd {
+
+	font-size: 0;
+	width: 70%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px #000;
+}
+
+.asd p {
+
+	display: inline-block;
+	font-size: 100px;
+	color: #000;
+	background: #yellow;
+	width: 30%;
+	margin-right: 3%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.asd p:last-child {
+
+	margin-right: 0;
+}
